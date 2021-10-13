@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloWorld'
+
+jar {
+    archiveBaseName = 'sigma-installer'
+    archiveVersion = '1.0.0'
+    manifest {
+        attributes(
+            'Main-Class': 'hello.HelloWorld'
+        )
+    }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
