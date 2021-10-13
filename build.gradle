@@ -4,7 +4,7 @@ apply plugin: 'application'
 mainClassName = 'hello.HelloWorld'
 
 jar {
-    archiveBaseName = 'sigma-installer'
+    archiveBaseName = 'build'
     archiveVersion = '1.0.0'
     manifest {
         attributes(
